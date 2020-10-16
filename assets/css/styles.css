@@ -1,0 +1,29 @@
+* {
+  /* outline: 1px solid red !important; */
+}
+html,
+body {
+  background-color: #f6f6f6;
+}
+.mob-layout {
+  padding: 8px 12px;
+}
+.header-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-style > img {
+  margin-right: 12px;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+  padding: 8px;
+}
